@@ -1,5 +1,5 @@
 mvn install:install-file \
- -DgroupId=org.openmpi \
+ -DgroupId=mpi \
  -DartifactId=openmpi \
  -Dversion=1.0 \
  -Dpackaging=jar \
