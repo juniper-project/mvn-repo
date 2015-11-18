@@ -3,5 +3,7 @@ mvn install:install-file \
  -DartifactId=openmpi \
  -Dversion=1.0 \
  -Dpackaging=jar \
+ -DgeneratePom=true \
  -Dfile=/home/hpcochep/Projects/Running/JUNIPER/Development/GIT/mvn-repo/openmpi-1-0.jar \
- -DlocalRepositoryPath=/home/hpcochep/Projects/Running/JUNIPER/Development/GIT/mvn-repo
+ -DlocalRepositoryPath=./repository \
+ -DcreateChecksum=true
