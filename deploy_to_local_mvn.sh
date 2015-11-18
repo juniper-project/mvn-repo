@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=/home/hpcochep/Projects/Running/JUNIPER/Development/GIT/mvn-repo/openmpi-1-0.jar -DgroupId=org.openmpi -DartifactId=openmpi -Dversion=1.0 -Dpackaging=jar -DlocalRepositoryPath=https://github.com/juniper-project/mvn-repo.git
